@@ -1,0 +1,15 @@
+{
+  "name": "cucumber-node-starter-typescript-esm",
+  "version": "0.0.0",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "test": "node --import @cucumber/node/bootstrap --import tsx --test \"features/**/*.feature\""
+  },
+  "devDependencies": {
+    "@cucumber/node": "^0.3.0",
+    "@tsconfig/node22": "^22.0.0",
+    "@types/node": "^22.13.9",
+    "tsx": "^4.19.3"
+  }
+}
