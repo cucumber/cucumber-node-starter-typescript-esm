@@ -7,7 +7,7 @@
     "test": "node --import @cucumber/node/bootstrap --import tsx --test \"features/**/*.feature\""
   },
   "devDependencies": {
-    "@cucumber/node": "^0.6.0",
+    "@cucumber/node": "^0.7.0",
     "@tsconfig/node24": "^24.0.0",
     "@types/node": "^24.0.0",
     "tsx": "^4.19.3"
